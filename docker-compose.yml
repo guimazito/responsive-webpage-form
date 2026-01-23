@@ -1,8 +1,8 @@
 version: '3'
 services:
-  web:
+  responsive-webpage:
     build: .
     ports:
-      - "8080:80"
-    container_name: minha-pagina
+      - "8070:80"
+    container_name: responsive-webpage
     restart: always
